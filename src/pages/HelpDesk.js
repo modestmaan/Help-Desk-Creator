@@ -102,12 +102,6 @@ class HelpDesk extends Component {
             type: "mrkdwn",
             text: "*_What I expected to happen_*\n" + "-" + this.state.expect,
           },
-          // accessory: {
-          //   type: "image",
-          //   image_url:
-          //     "https://w1.pngwing.com/pngs/675/643/png-transparent-question-mark-person-man-symbol-joint.png",
-          //   alt_text: "alt text for image",
-          // },
         },
         {
           type: "divider",
@@ -125,12 +119,6 @@ class HelpDesk extends Component {
               "\nOther: " +
               this.state.try3,
           },
-          // accessory: {
-          //   type: "image",
-          //   image_url:
-          //     "https://s3-media2.fl.yelpcdn.com/bphoto/DawwNigKJ2ckPeDeDM7jAg/o.jpg",
-          //   alt_text: "alt text for image",
-          // },
         },
         {
           type: "divider",
@@ -158,12 +146,6 @@ class HelpDesk extends Component {
             type: "mrkdwn",
             text: "*_ERROR Screenshot_*\n" + "-" + `${this.state.newErr}`,
           },
-          // accessory: {
-          //   type: "image",
-          //   image_url:
-          //     "https://s3-media2.fl.yelpcdn.com/bphoto/DawwNigKJ2ckPeDeDM7jAg/o.jpg",
-          //   alt_text: "alt text for image",
-          // },
         },
       ],
     };
